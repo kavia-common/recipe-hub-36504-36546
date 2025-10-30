@@ -11,6 +11,14 @@ This project provides a minimal React template with a clean, modern UI and minim
 
 ## Getting Started
 
+Create a .env file (or use .env.example) to configure the backend API base URL:
+
+```
+REACT_APP_API_BASE_URL=http://localhost:3001
+```
+
+If not provided, the app defaults to http://localhost:3001.
+
 In the project directory, you can run:
 
 ### `npm start`
